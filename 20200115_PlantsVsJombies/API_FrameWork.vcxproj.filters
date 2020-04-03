@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="gameNode">
+      <UniqueIdentifier>{71e18ebb-4095-48a9-bf64-0101a4b28e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{ea4c5740-10f5-4349-8ad6-d780ce577129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="singletonBase">
+      <UniqueIdentifier>{1352499b-c472-4ac9-85cb-71b3f3226ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{18fb1c79-f50b-4b9b-a264-e066d2bca54b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{ee673918-6273-48b6-b9d8-c4d87fd95bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{c6071c33-1efa-44cc-a846-47833fbef4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="타이머">
+      <UniqueIdentifier>{63bdded0-ba64-47dd-adec-960c099f3b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\Object">
+      <UniqueIdentifier>{f029138a-c0c3-4e50-b3b0-f99a0b2e7110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\Scene">
+      <UniqueIdentifier>{5d858de9-7d8a-4d74-9177-95ac2b4dd847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\Object\UI">
+      <UniqueIdentifier>{7643cefa-4ecc-4526-ac02-8eb3ad9ead00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\Object\ObjectControl">
+      <UniqueIdentifier>{fef26e37-0baa-4c9c-a9e7-75b992663056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\Object\UI\SeedBank">
+      <UniqueIdentifier>{b70c3d2d-1ccc-4b86-80f2-7555a732da8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\Object\UI\Map">
+      <UniqueIdentifier>{68d8a15e-ddf0-4e15-b5b2-733672336a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\Object\UI\FlagMeter">
+      <UniqueIdentifier>{f3fbf8ae-05fe-4686-83ae-8d09fee96a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\Object\UI\SunPoint">
+      <UniqueIdentifier>{3b0dec1c-865c-4dff-ae83-f65e585c6a6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="API_FrameWork.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>gameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>singletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>타이머</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>mainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>mainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>mainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>mainGame\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SeedBank.h">
+      <Filter>mainGame\Object\UI\SeedBank</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>mainGame\Object\UI\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="FlagMeter.h">
+      <Filter>mainGame\Object\UI\FlagMeter</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>mainGame\Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectControl.h">
+      <Filter>mainGame\Object\ObjectControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Plant.h">
+      <Filter>mainGame\Object\ObjectControl</Filter>
+    </ClInclude>
+    <ClInclude Include="SeedCard.h">
+      <Filter>mainGame\Object\UI\SeedBank</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>mainGame\Object\ObjectControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>mainGame\Object\ObjectControl</Filter>
+    </ClInclude>
+    <ClInclude Include="SunPoint.h">
+      <Filter>mainGame\Object\UI\SunPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="SunPointControl.h">
+      <Filter>mainGame\Object\UI\SunPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroStage.h">
+      <Filter>mainGame\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>gameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>타이머</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>mainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>mainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>mainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>mainGame\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SeedBank.cpp">
+      <Filter>mainGame\Object\UI\SeedBank</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>mainGame\Object\UI\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="FlagMeter.cpp">
+      <Filter>mainGame\Object\UI\FlagMeter</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>mainGame\Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectControl.cpp">
+      <Filter>mainGame\Object\ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Plant.cpp">
+      <Filter>mainGame\Object\ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="SeedCard.cpp">
+      <Filter>mainGame\Object\UI\SeedBank</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>mainGame\Object\ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>mainGame\Object\ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="SunPoint.cpp">
+      <Filter>mainGame\Object\UI\SunPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="SunPointControl.cpp">
+      <Filter>mainGame\Object\UI\SunPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroStage.cpp">
+      <Filter>mainGame\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
